@@ -1,0 +1,41 @@
+:root{
+    --color-light: rgb(31, 31, 29);
+    --color-black: black;
+    --color-unaccent: rgba(245, 245, 245, 0.521);
+    --color-price: rgb(73, 238, 95);
+    
+    --spacing-small: 10px;
+    --spacing-medium: 15px;
+    --spacing-large: 30px;
+    
+    --linear-gradient: linear-gradient(to right, #faef50, #f3f034, #f8f52e, #f8fc1e, #ecfd00);
+	--box-radius: 3px;
+    --color-medium:#3b3a3a;
+    --box-shadow: 
+		0 16px 24px 2px rgba(206, 213, 219, 0.3), 
+		0 6px 30px 5px rgb(206, 213, 219, 0.3), 
+		0 8px 10px -5px rgba(206, 213, 219, 0.3);
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ecfd00;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color:var(--color-price) ;
+}
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    font-family: sans-serif;
+    background-color: var(--color-light);
+    color: aliceblue;
+}
