@@ -1,11 +1,10 @@
-class Header{
-    handlerOpenShoppingPage(){
-        shoppingPage.render();
-    }
+class Header {
+  handlerOpenShoppingPage() {
+    shoppingPage.render();
+  }
 
-
-    render(count) {
-        const hrml = `
+  render(count) {
+    const hrml = `
         <div class = "header-container">
             <div class = "header-counter" onclick="headerPage.handlerOpenShoppingPage();">
                 🛒 ${count}
@@ -13,8 +12,8 @@ class Header{
         </div>
         
         `;
-        ROOT_HEADER.innerHTML = hrml;
-    }
+    ROOT_HEADER.innerHTML = hrml;
+  }
 }
 
 const headerPage = new Header();
